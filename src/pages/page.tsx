@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { userData } from '../services/action/action'; // Import the userData action
+import { userData } from '../services/reducers/userReducer'; // Import the userData action
 import { UserState } from '../services/types/types';
 
 const MyComponent: React.FC = () => {
